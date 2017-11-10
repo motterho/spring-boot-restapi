@@ -1,0 +1,224 @@
+/* 
+Custom CSS for...
+'MOSBusinessWEB' HTML Theme by Start Bootstrap
+
+All Start Bootstrap themes are licensed under Apache 2.0. 
+For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+*/
+
+/* Global Styles */
+html, body {
+	height: 100%;
+}
+
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.dropdown {
+	cursor: pointer;
+}
+
+.img-home-portfolio, .img-customer, .portfolio-item {
+	margin-bottom: 30px;
+}
+
+.tab-pane {
+	margin-top: 15px;
+}
+
+/* Page Sections */
+.section, .section-colored {
+	padding: 50px 0;
+}
+
+.section-colored {
+	background-color: #e1e1e1;
+	/* change this to change the background color of a colored section */
+}
+
+.sidebar {
+	margin-top: 40px;
+}
+
+.sidebar ul {
+	border-radius: 5px;
+	padding: 5px;
+	border: 1px solid #cccccc;
+}
+
+/* Half Page Height Carousel Customization */
+.carousel {
+	height: 50%;
+}
+
+.item, .active, .carousel-inner {
+	height: 100%;
+}
+
+.fill {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+}
+
+/* Social Icons Styles */
+.list-social-icons {
+	margin-bottom: 45px;
+}
+
+.tooltip-social a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.facebook-link a:hover {
+	color: #3b5998;
+}
+
+.linkedin-link a:hover {
+	color: #007fb1;
+}
+
+.twitter-link a:hover {
+	color: #39a9e0;
+}
+
+.google-plus-link a:hover {
+	color: #d14836;
+}
+
+/* Service Page Styles */
+.service-icon {
+	font-size: 50px;
+}
+
+/* 404 Page Styles */
+.error-404 {
+	font-size: 8em;
+}
+
+/* Pricing Page Styles */
+.price {
+	font-size: 4em;
+}
+
+.price-cents {
+	vertical-align: super;
+	font-size: 50%;
+}
+
+.price-month {
+	font-size: 35%;
+	font-style: italic;
+}
+
+/* Footer Styles */
+footer {
+	margin: 50px 0;
+}
+
+/* Responsive Styles */
+@media ( max-width : 767px) {
+	.carousel {
+		height: 70%;
+		/* increases the carousel height so it looks good on phones */
+	}
+}
+/*==============New=================*/
+
+/* SELF INFORMATION */
+/* ----------------------------------------- */
+.self {
+	width: 250px;
+	float: left;
+	padding-top: 11px;
+	margin-bottom: 50px;
+}
+
+.self i span#blue {
+	color: blue;
+}
+
+.self h1 span#textsmall {
+	font-size: 18px;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.row-bordered {
+	position: relative;
+}
+
+.row-bordered:after {
+	content: "";
+	display: block;
+	border-bottom: 1px solid #ccc;
+	position: absolute;
+	bottom: 0;
+	left: 15px;
+	right: 15px;
+}
+
+.imgfont {
+	font-family: cursive;
+	color: #2b2b2b;
+	text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+/*Scroll button
+* https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+*/
+#myBtn {
+	display: none; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: gray; /* Set a background color */
+	color: black; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 15px; /* Some padding */
+	border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+	background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/*Spring Boot test*/
+.username.ng-valid {
+	background-color: lightgreen;
+}
+
+.username.ng-dirty.ng-invalid-required {
+	background-color: red;
+}
+
+.username.ng-dirty.ng-invalid-minlength {
+	background-color: yellow;
+}
+
+.email.ng-valid {
+	background-color: lightgreen;
+}
+
+.email.ng-dirty.ng-invalid-required {
+	background-color: red;
+}
+
+.email.ng-dirty.ng-invalid-email {
+	background-color: yellow;
+}
+/*==============New End=================*/

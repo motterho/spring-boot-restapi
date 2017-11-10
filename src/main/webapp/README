@@ -1,0 +1,17 @@
+#############################################
+##To run the application use, for test Node##
+
+* Node.js 
+- Install Node.js
+- Install angular-http-server (https://www.npmjs.com/package/angular-http-server)
+
+If proxy set proxy settings before install 
+* $ npm config set proxy http://V075699:<passwd>@httppxgot.srv.volvo.com:8080
+* $ npm config set https-proxy http://V075699:<passwd>@httppxgot.srv.volvo.com:8080
+Install server -g (global)
+* npm install -g angular-http-server
+
+* cd to WS:
+* Example "C:\WS\Test\JavaPlayground\ModernBusiness\WebContent"  (startbootstrap-modern-business@4.0.0-beta.2)      
+* λ angular-http-server  
+* Listening on 8080
